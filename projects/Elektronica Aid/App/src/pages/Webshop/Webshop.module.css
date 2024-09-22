@@ -1,0 +1,92 @@
+.webshop {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 3rem;
+    margin-bottom: 20rem;
+    position: relative;
+}
+.card__wrapper {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap :2rem  ;
+}
+.priceInput {
+    max-width: 10rem;
+}
+.price_filter {
+    display: flex;
+    margin: 1rem;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid black;
+}
+.filter {
+    width: 20%;
+    min-width: 20rem;
+    margin-left: 5rem ;
+    gap: 1rem;
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 5px;
+    height: fit-content;
+}
+.category_filter {
+    margin: 1rem;
+    padding-top: 1rem;
+    width: 100%;
+}
+.category_filter div {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    position: relative;
+}
+.category_filter div input {
+    position: absolute;
+    right: -5rem;
+}
+.addProductButton {
+    display: flex;
+    background-color: var(--secondary-red);
+    color: white;
+    height: fit-content;
+    position: absolute;
+    right: 5rem;
+    top:-8rem;
+    z-index: 10;
+}
+
+@media screen and (max-width: 768px) {
+    .webshop {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        margin-bottom: 25rem;
+    }
+    .card__wrapper {
+        max-width: 100%;
+    }
+    .price_filter {
+        flex-direction: column;
+        align-items: center;
+    }
+    .priceInput {
+        max-width: 100%;
+    }
+    .filter {
+        width: 90%;
+        margin-left: 0;
+    }
+    .addProductButton {
+        right: 1rem;
+        top: -2rem;
+    }
+    .category_filter div input {
+        max-width: fit-content;
+        right:2rem
+    }
+}

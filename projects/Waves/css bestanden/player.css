@@ -1,0 +1,77 @@
+h1 {
+  font-family: "Quicksand", sans-serif;
+  font-size: 4rem;
+  margin: 1rem 0;
+}
+h2 {
+  font-family: "Quicksand", sans-serif;
+  font-size: 3rem;
+  margin: 1rem 0;
+}
+h3 {
+  font-family: "Quicksand", sans-serif;
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+.header {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+}
+body {
+  background-color: black;
+  color: white;
+  font-size: 1rem;
+  font-family: "Lato", sans-serif;
+  width: 100%;
+  max-width: 70rem;
+  margin: 1rem auto;
+}
+#imagesize {
+  width: 6rem;
+  height: 2rem;
+}
+.white_underline:hover {
+  color: hsl(39, 100%, 72%);
+  text-decoration: underline;
+}
+.white_underline {
+  text-decoration: none;
+  color: white;
+  margin: 0 2rem;
+}
+.white {
+  text-decoration: none;
+  color: white;
+  margin: 0 2rem;
+}
+.playlists {
+  /*foto's in rijen zetten*/
+  display: flex;
+  flex-flow: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 100%;
+  gap: 0.5rem;
+  padding-bottom: 5rem;
+  margin-right: 9rem;
+}
+.playlists > div > div > img {
+  border-radius: 0.5rem;
+  height: 9rem;
+  width: 9rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hover {
+  justify-content: center;
+  padding: 1rem;
+  width: 10rem;
+  max-width: 10rem;
+}
+.hover:hover {
+  background-color: grey;
+}
+.genres {
+  font-weight: bold;
+}

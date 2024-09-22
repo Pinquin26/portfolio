@@ -1,0 +1,168 @@
+#quintendt {
+   overflow-x: hidden;
+   overflow-y: hidden;
+   h1 {
+      font-size: 5rem;
+      color: brown;
+      font-family:Sacramento;
+   }
+   p {
+      color: black;
+      font-weight: 700;
+      max-width: 40rem;
+      z-index: 1;
+      margin: 1rem;
+   }
+   h2 {
+      text-shadow: rgb(218, 210, 180) 1px 0 10px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 10rem;
+   }
+   .box {
+      z-index: 1;
+
+      .football-texture {
+         opacity: 0;
+         overflow: hidden;
+         border-radius: 50%;
+         width:10rem;
+         height:4.8rem;
+      }
+   }
+   .part1 {
+      background-color: white;
+      text-align: center;
+      .field {
+         width: 100%;
+         height: 100vh;
+         overflow-x: hidden;
+         display: flex;
+         background-image: url(../assets/AmF-field-background.png);
+         background-repeat: no-repeat;
+         background-position: center center;
+         background-size: cover;
+         z-index: -1;
+         text-align: center;
+         align-items: center;
+         justify-content: center;
+      }
+   }
+   .part2 {
+      height: 100vh;
+      background-color: white;
+      text-align: center;
+      .gif {
+         height: 30vh;
+      }
+      .history {
+         text-align: start;
+      }
+      .facts{
+         text-align: end;
+         justify-content: end;
+         margin-left: 57vw;
+      }
+   }
+   .part3{
+      background-image: url(../assets/football-background.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 100vh;
+      text-align: center;
+      h2 {
+         padding-top: 60vh;
+      }
+   }
+   .part4 {
+      height: 100vh;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      background-color: white;
+      align-items: center;
+      .container1{
+         text-align: center;
+         justify-content: center;
+         display: flex;
+         h3 {
+            font-family: Arial, Helvetica, sans-serif;
+            color: red;
+            font-size: 15rem;
+         }
+         
+         img {
+            height: 40vh;
+         }
+      }
+      .container2{
+         justify-content: center;
+         display: flex;
+         gap:30vw;
+         width:100%;
+      }
+   }
+   .part5{    
+      height: 200vh;
+      .goal-wrapper{
+         background-image: url(../assets/goal.jpg);
+         background-size: cover;
+         height: 200vh;
+         background-position: center;
+         display: flex;
+         justify-content: flex-end;
+         align-items: center;
+         .goal{
+            display: flex;
+            background-image: url(../assets/scorebord.png);
+            background-repeat: no-repeat;
+            background-size:20vw 100vh;
+            height: 100vh;
+            width: 20vw;
+            h2{
+               position: relative;
+               color: black;
+               font-size: 8rem;
+               top:37vh;
+               left:3.5vw;
+            }
+            .score {
+               opacity: 0;
+               margin-left: 3.5vw;
+            }
+            
+         }
+         
+      }
+   }
+   .part6{
+      height: 100vh;
+      background-image: url(../assets/rugby-american-football.jpg);
+      background-size: cover;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      .rugbybal{
+         text-align: end;
+         margin: 20vh 1rem 0 auto;
+         background-color: white;
+         padding: 1rem;
+      }
+   }
+   .part7 {
+      height: 100vh;
+      background-image: url(../assets/Football-Hvordan-opstod-amerikansk-fodbold.jpg);
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      text-align: center;
+      z-index: 0;
+      .name {
+         text-align: start;        
+         font-family: Sacramento;
+         font-size: 7rem;
+         color: white;
+      }
+   }
+   
+}

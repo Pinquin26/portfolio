@@ -123,6 +123,9 @@ h1 {
 .btn:hover {
     background-color: #2980b9;
 }
+.red {
+    background-color: red;
+}
 
 /* Contact sectie */
 footer {

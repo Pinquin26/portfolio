@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="src/styles/reset-artevelde.css" />
+        <link rel="stylesheet" href="src/styles/style.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Mobile development Quiz</title>
+    </head>
+    <body>
+        <main>
+            <h1>The Developer Quiz</h1>
+            <section id="settings" class="hidden">
+                <h2>Settings</h2>
+                <p>Choose the amount of questions:</p>
+                <input
+                    type="number"
+                    max="20"
+                    min="1"
+                    value="10"
+                    class="spacer"
+                    id="numQuestions"
+                />
+                <form>
+                    <label for="subject">Choose a subject:</label>
+                    <select name="subjects" id="subjects">
+                        <option value="linux">Linux</option>
+                        <option value="DevOps">DevOps</option>
+                        <option value="PHP">PHP</option>
+                        <option value="SQL">SQL</option>
+                        <option value="Docker">Docker</option>
+                        <option value="Code">Code</option>
+                        <option value="CMS">CMS</option>
+                        <option value="">Random</option>
+                    </select>
+                </form>
+                <form>
+                    <label for="difficulty">Choose a difficulty:</label>
+                    <select name="difficulty" id="difficulty" class="spacer">
+                        <option value="easy">Easy</option>
+                        <option value="medium">Medium</option>
+                        <option value="hard">Hard</option>
+                    </select>
+                </form>
+                <button id="settingNextBtn" class="spacer">
+                    Start quizzing
+                </button>
+            </section>
+            <section id="quiz" class="hidden">
+                <h2>Quiz</h2>
+                <div id="quizbox"></div>
+                <button id="quizNextBtn" class="spacer">Next question</button>
+                <button id="goToResultsBtn" class="spacer hidden">
+                    View your results
+                </button>
+            </section>
+            <section id="result" class="hidden">
+                <h2>results</h2>
+                <div id="scorebox"></div>
+                <h3>The questions you got wrong:</h3>
+                <div id="resultboxWrong">
+                    <br />
+                </div>
+                <h3>The questions you got right:</h3>
+                <div id="resultboxRight">
+                    <br />
+                </div>
+                <button id="settingsNextBtn" class="spacer">Quizz again</button>
+            </section>
+        </main>
+        <script type="module" src="./src/main.ts"></script>
+    </body>
+</html>

@@ -1,0 +1,194 @@
+h1 {
+  font-family: "Quicksand", sans-serif;
+  font-size: 4rem;
+  margin: 1rem 0;
+}
+h2 {
+  font-family: "Quicksand", sans-serif;
+  font-size: 3rem;
+  margin: 1rem 0;
+}
+h3 {
+  font-family: "Quicksand", sans-serif;
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+.header {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+}
+.white_underline:hover {
+  color: hsl(39, 100%, 72%);
+  text-decoration: underline;
+}
+.white_underline {
+  text-decoration: none;
+  color: white;
+  margin: 0 2rem;
+}
+body > p {
+  margin: 1rem auto;
+}
+body {
+  background-color: black;
+  color: white;
+  font-size: 1rem;
+  font-family: "Lato", sans-serif;
+  width: 100%;
+  max-width: 70rem;
+  margin: 1rem auto;
+}
+#imagesize {
+  width: 6rem;
+  height: 2rem;
+}
+.white {
+  text-decoration: none;
+  color: white;
+  margin: 0 2rem;
+}
+.blue {
+  color: hsl(230, 60%, 54%);
+}
+
+.pink {
+  color: hsl(304, 52%, 55%);
+}
+
+.yellow {
+  color: hsl(39, 100%, 72%);
+}
+.background_grey {
+  display: block;
+  width: 100%;
+  max-width: 80rem;
+  background-color: grey;
+  padding: 2rem;
+  margin: 1rem 0;
+  font-size: 2rem;
+  border-left: 3px solid white;
+}
+.rechts {
+  display: flex;
+  justify-content: flex-end;
+}
+.white2 {
+  color: white;
+}
+.listmarks {
+  list-style-image: url(../foto/bullet-list.svg);
+  margin: 0;
+  padding: 0 1rem;
+}
+ol {
+  padding-left: 0;
+  list-style-position: inside;
+}
+.blokjes {
+  flex-wrap: wrap;
+  display: flex;
+  gap: 2rem;
+}
+.background_blue {
+  width: 30rem;
+  background-image: linear-gradient(hsl(231, 58%, 72%), hsl(230, 60%, 54%));
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.background_blue > h3,
+P {
+  margin-left: 2rem;
+}
+.background_pink {
+  width: 30rem;
+  background-image: linear-gradient(hsl(303, 50%, 73%), hsl(304, 52%, 55%));
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.background_pink > h3,
+P {
+  margin-left: 2rem;
+}
+.lightblue {
+  background-color: hsl(231, 58%, 72%);
+  border-radius: 1rem;
+  margin: 2rem 2rem 5rem 2rem;
+  padding: 1rem;
+}
+.checkmark {
+  list-style-image: url("../foto/checkmark.svg");
+}
+.background_white {
+  background-color: white;
+  border-radius: 0.5rem;
+  text-align: center;
+  padding: 0.5rem 0 0.5rem 0;
+  margin: 0 2rem;
+  text-decoration: none;
+  color: black;
+}
+.background_blue > .background_white:hover {
+  opacity: 0.5;
+}
+.background_pink > .background_white:hover {
+  opacity: 0.5;
+}
+.black {
+  color: black;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.lightpink {
+  background-color: hsl(303, 50%, 73%);
+  border-radius: 1rem;
+  margin: 2rem;
+  padding: 1rem;
+}
+a.background_pink {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: baseline;
+}
+.line {
+  display: block;
+  padding-bottom: 5rem;
+  border-bottom: 0.0625rem solid white;
+}
+.resize {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-left: 1rem;
+}
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 3rem auto;
+  padding-bottom: 3rem;
+}
+.footer_links > a {
+  color: white;
+  display: flex;
+  margin: 0 2rem;
+  flex-direction: column;
+}
+.footer_links > a:hover {
+  color: hsl(39, 100%, 72%);
+}
+.social {
+  display: flex;
+  align-self: flex-start;
+  flex-direction: row;
+  padding-left: 1rem;
+}

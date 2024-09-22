@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&display=swap');
+
+:root {
+  --primary: #6bc7fc;
+  --primary900: #003059;
+  --secondary: #A955FF;
+  --gray: #8d8b88;
+  --gray100: #e5e5e5;
+  --background: #efeff4;
+  --red: #db3b5a;
+  --red100: #ffeaee;
+
+  --text-color: var(--primary-900);
+  --text-color-gold: #FFB400;
+  --text-color-white:#efeff4;
+  --font-sans: "Josefin Sans", sans-serif;
+
+  --font-weight-regular: 400;
+  --font-weight-bold: 600;
+
+  --border-radius: 0.5rem;
+}
+
+body {
+  background:#002f5956 url("/45-degree-fabric-dark1.png");
+  background-size: repeat;
+
+  font-family: var(--font-sans);
+  color: var(--text-color);
+}
+
+input {
+  border: none;
+  border-radius: var(--border-radius);
+}
+
+a {
+  color: inherit;
+}

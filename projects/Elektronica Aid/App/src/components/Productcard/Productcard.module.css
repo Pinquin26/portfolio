@@ -1,0 +1,67 @@
+.Productcard {
+    background-color: var(--matt-black);
+    position: relative;
+    color: white;
+    border-radius: 1rem;
+    width: 25rem;
+    height: 35rem;
+}
+.card_img {
+    height: 20rem;
+    object-fit: cover;
+    border-radius: .8rem .8rem 0 0;
+    background-color: rgb(187, 71, 71);
+    margin: 1rem;
+}
+.product_banner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2rem 1rem 1rem 1rem;
+    text-decoration: none;
+    color: var(--white);
+}
+.product_title {
+    text-align: left;
+}
+.icon__wrapper {
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: 1rem;
+    justify-content: space-between;
+}
+.icon {
+    display: flex;
+    margin-top: 2rem;
+    width: fit-content;
+    height: fit-content;
+    border-radius: .5rem;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--secondary-red);
+    padding: .3rem;
+    cursor: pointer;
+}
+
+.icon_remove {
+    position: absolute;
+    top: -8px;
+    right: -15px;
+    cursor: pointer;
+    z-index: 1; 
+    padding: .2rem;
+    background-color: white;
+    border-radius: .5rem;
+    border: 1px solid black;
+}
+.popup {
+    background-color: var(--secondary-red);
+    padding: 1rem;
+    border-radius: 1rem;
+    color: white;
+    z-index: 9;
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+}

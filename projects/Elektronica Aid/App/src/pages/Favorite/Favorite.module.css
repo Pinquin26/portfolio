@@ -1,0 +1,145 @@
+/* yourStyles.module.css */
+.container {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 20rem;
+}
+.container_empty {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35vh;
+}
+
+.header {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.productList {
+    list-style-type: none;
+    padding: 0;
+}
+
+.productItem {
+    display: flex;
+    height: 100%;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    justify-self: space-between;
+}
+.productItem a {
+    display: inherit;
+    text-decoration: none;
+    color: inherit;
+    width: 100%;
+}
+
+.imageContainer {
+    flex: 0 0 150px;
+    margin-right: 20px;
+}
+
+.productImage {
+    width: 15rem;
+    height: 15rem;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.placeholderImage {
+    width: 15rem;
+    height: 15rem;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: #f0f0f0;
+    border: 1px dashed #ccc;
+    border-radius: 8px;
+}
+
+.productDetails {
+    justify-content: start;
+    text-align: left;
+    padding:1rem;
+}
+
+.productName {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.productPrice {
+    font-size: 18px;
+    color: #888;
+    margin-bottom: 10px;
+}
+
+.productDescription {
+    font-size: 16px;
+    color: #666;
+}
+.icon__wrapper {
+    max-width: 100%;
+    display: absolute;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+}
+.icon {
+    display: flex;
+    margin-top: 2rem;
+    width: fit-content;
+    height: fit-content;
+    border-radius: .5rem;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--secondary-red);
+    padding: .3rem;
+    cursor: pointer;
+}
+.popup {
+    background-color: var(--secondary-red);
+    padding: 1rem;
+    border-radius: 1rem;
+    color: white;
+    z-index: 9;
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+    .productItem {
+        flex-direction: column;
+        margin-bottom: 3rem;
+    }
+    .imageContainer {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .productImage {
+        width: 100%;
+        height: 100%;
+    }
+    .productDetails {
+        width: 100%;
+    }
+    .icon__wrapper {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+        
+    }
+    .icon {
+        margin-top: 0;
+        padding: 0.2rem;
+
+        height: 4Rem;
+        border-radius: 1rem;
+    }
+}

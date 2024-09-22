@@ -1,0 +1,90 @@
+.hidden {
+    display: none;
+}
+.admin_form {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border-radius: 1rem;
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+    top:-1rem;
+    background-color: #ddd;
+    justify-content: center;
+    align-items: center;
+}
+.admin_form label {
+    padding: 1rem;
+    text-align: left;
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+}
+input, textarea {
+    width: 70%;
+    padding: 1rem;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    border: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}   
+
+.specs {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 50%;
+}
+.specs input {
+    width: 50%;
+    border: 1px solid #333;
+    border-radius: 0;
+}
+.save {
+    padding: 1rem;
+    margin: 1rem;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    #createDiv {
+        overflow-x: hidden;
+        justify-content: center;
+        display: flex;
+        max-width: 100%;
+        margin: 0;
+        left:0;
+    }
+    .admin_form {
+        justify-content: center;
+        display: flex;
+        max-width: 100%;
+        margin: 0;
+        left:0;
+    }
+    .admin_form label {
+        max-width: 100%;
+        margin: 0;
+    }
+    input, textarea {
+        max-width: 100%;
+        margin: 0;
+    }
+    .specs {
+        max-width: 100%;
+        margin: 0;
+    }
+    .specs input {
+        min-width: 100%;
+        margin: 0;
+    }
+}

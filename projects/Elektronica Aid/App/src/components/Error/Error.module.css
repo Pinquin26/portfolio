@@ -1,0 +1,24 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+
+    background-color: #fa6a6a;
+    color: white;
+
+    border-radius: .5rem;
+    padding: .5rem;
+    font-weight: bold;
+
+    position: absolute;
+    z-index: 5;
+    top: 50%;
+    min-height: 5rem;
+    max-width: 80%;
+    left: 0;
+    right: 0;
+}

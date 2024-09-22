@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    text-align: start;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 5rem;
+}
+
+.back {
+    color: black;
+    margin-top: 1rem;
+}
+
+.title {
+    font-size: 3rem;
+    color: #FFCC00 ;
+    text-decoration: none;
+}

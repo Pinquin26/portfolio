@@ -1,0 +1,155 @@
+h1 {
+  font-family: "Quicksand", sans-serif;
+  font-size: 4rem;
+  margin: 1rem 0;
+}
+h2 {
+  font-family: "Quicksand", sans-serif;
+  font-size: 3rem;
+  margin: 1rem 0;
+}
+h3 {
+  font-family: "Quicksand", sans-serif;
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+#align {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 70rem;
+}
+.header {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  margin: 1rem 0;
+}
+.white_underline:hover {
+  color: hsl(39, 100%, 72%);
+  text-decoration: underline;
+}
+.white_underline {
+  text-decoration: none;
+  color: white;
+  margin: 0 2rem;
+}
+#imagesize {
+  width: 6rem;
+  height: 2rem;
+}
+.white {
+  text-decoration: none;
+  color: white;
+  margin: 0 2rem;
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-size: 1rem;
+  font-family: "Lato", sans-serif;
+  width: 100%;
+}
+.foto1 {
+  background-image: url(../foto/pexels-cottonbro-studio-7087608.jpg);
+  background-color: black;
+  height: 38rem;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.center {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  flex-direction: column;
+  align-content: center;
+  padding-top: 26rem;
+  color: white;
+}
+.button {
+  background-color: white;
+  color: black;
+  display: inline;
+  border-radius: 1rem;
+  padding: 0.25rem 1rem;
+  margin-right: 1rem;
+  text-decoration: none;
+}
+.button:hover {
+  opacity: 0.75;
+}
+.spacer {
+  margin-top: 1rem;
+}
+.player {
+  color: white;
+  text-decoration: none;
+}
+.player:hover {
+  text-decoration: underline;
+}
+.gifflex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.tekst {
+  color: hsl(39, 100%, 72%);
+  padding-bottom: 10rem;
+  padding-top: 10rem;
+}
+.gradient {
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  background: linear-gradient(
+    to top right,
+    hsl(230, 60%, 54%),
+    hsl(304, 52%, 55%),
+    hsl(39, 100%, 72%)
+  );
+  display: flex; /*airpod centreren*/
+  justify-content: center; /*airpod centreren*/
+  align-items: center; /*airpod centreren*/
+  width: 100%;
+}
+.airpod {
+  height: 58rem;
+  max-width: 80rem;
+  width: 100%;
+  background-image: url(../foto/airpod.png);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.textalignment {
+  padding-top: 25rem;
+  display: flex;
+  width: 50%;
+  display: block;
+  flex-wrap: wrap;
+  flex-flow: row;
+  justify-content: left;
+  text-align: end;
+}
+.woman {
+  background-image: url(../foto/woman-listening.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(22, 56, 94);
+  padding-top: 20rem;
+  display: flex;
+  justify-content: right;
+}
+.aligntextwoman {
+  padding-bottom: 10rem;
+  display: flex;
+  width: 50%;
+  display: block;
+  flex-wrap: wrap;
+  flex-flow: row;
+  padding-left: 2rem;
+}

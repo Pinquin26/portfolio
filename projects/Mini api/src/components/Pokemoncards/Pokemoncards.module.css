@@ -1,0 +1,63 @@
+
+.pokemoncard {
+    margin: 2rem 2rem 3rem 2rem;
+    padding: 2rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 25rem;
+    text-transform: capitalize;
+    height: auto;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+
+.sprite {
+    width: 100%;
+    height: 15rem;
+    object-fit: contain;
+}
+
+.pokemoncard h2 {
+    margin-top: 0;
+}
+
+.pokemoncard p {
+    margin: .5rem 0;
+}
+
+.pokemoncard ul {
+    margin: .5rem 0;
+    padding: 0;
+}
+
+.pokemoncard ul li {
+    list-style-type: none;
+}
+
+.pokemoncard button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: .5rem;
+    cursor: pointer;
+}
+
+.pokemoncard button:hover {
+    background-color: #0056b3;
+}
+
+@media screen and (max-width: 450px) {
+    .pokemoncard {
+        width: 100%;
+        padding: 2rem;
+        max-height: 35rem;
+    }
+    .sprite {
+        object-fit: contain;
+        width: auto;
+        height: auto;
+    }
+
+}

@@ -1,0 +1,342 @@
+[
+    {
+        "productId": 69,
+        "productName": "SuperPhone X200",
+        "category": "Smartphones",
+        "brand": "SuperTech",
+        "price": 799.99,
+        "description": "De SuperPhone X200 is de nieuwste smartphone met een 6.7-inch OLED-scherm, 128GB opslag, en een 48MP camera.",
+        "specifications": {
+            "screenSize": "6.7 inches",
+            "storage": "128GB",
+            "camera": "48MP",
+            "battery": "4000mAh",
+            "processor": "Octa-core 2.8GHz",
+            "os": "SuperOS 10.1",
+            "color": "Zwart",
+            "weight": "180g"
+        }
+    },
+    {
+        "productId": 2,
+        "productName": "FastCharge Pro",
+        "category": "Chargers",
+        "brand": "ChargeMaster",
+        "price": 29.99,
+        "description": "De FastCharge Pro is een snelle en efficiënte lader met 30W vermogen, compatibel met de meeste apparaten.",
+        "specifications": {
+            "outputPower": "30W",
+            "inputVoltage": "100-240V",
+            "outputVoltage": "5V, 9V, 12V",
+            "cableLength": "1.2m",
+            "connectorType": "USB-C",
+            "color": "Wit",
+            "weight": "80g"
+        }
+    },
+    {
+        "productId": 3,
+        "productName": "UltraBook Pro 15",
+        "category": "Laptops",
+        "brand": "CompuTech",
+        "price": 1299.99,
+        "description": "De UltraBook Pro 15 is een krachtige laptop met een 15.6-inch scherm, 16GB RAM, en 512GB SSD.",
+        "specifications": {
+            "screenSize": "15.6 inches",
+            "storage": "512GB SSD",
+            "ram": "16GB",
+            "processor": "Intel i7",
+            "battery": "6000mAh",
+            "os": "Windows 11",
+            "color": "Grijs",
+            "weight": "1.8kg"
+        }
+    },
+    {
+        "productId": 4,
+        "productName": "SoundMax 50",
+        "category": "Headphones",
+        "brand": "AudioPlus",
+        "price": 99.99,
+        "description": "De SoundMax 50 biedt uitstekende geluidskwaliteit met actieve ruisonderdrukking en een batterijduur van 30 uur.",
+        "specifications": {
+            "type": "Over-ear",
+            "batteryLife": "30 hours",
+            "connectivity": "Bluetooth 5.0",
+            "color": "Zwart",
+            "weight": "250g"
+        }
+    },
+    {
+        "productId": 5,
+        "productName": "SuperPhone Z10",
+        "category": "Smartphones",
+        "brand": "SuperTech",
+        "price": 699.99,
+        "description": "De SuperPhone Z10 is een krachtige smartphone met een 6.5-inch AMOLED-scherm, 64GB opslag, en een 32MP camera.",
+        "specifications": {
+            "screenSize": "6.5 inches",
+            "storage": "64GB",
+            "camera": "32MP",
+            "battery": "3500mAh",
+            "processor": "Octa-core 2.5GHz",
+            "os": "SuperOS 9.5",
+            "color": "Blauw",
+            "weight": "170g"
+        }
+    },
+    {
+        "productId": 6,
+        "productName": "QuickCharge Mini",
+        "category": "Chargers",
+        "brand": "ChargeMaster",
+        "price": 19.99,
+        "description": "De QuickCharge Mini is een compacte en krachtige lader met 20W vermogen, ideaal voor onderweg.",
+        "specifications": {
+            "outputPower": "20W",
+            "inputVoltage": "100-240V",
+            "outputVoltage": "5V, 9V",
+            "cableLength": "1m",
+            "connectorType": "USB-A",
+            "color": "Zwart",
+            "weight": "60g"
+        }
+    },
+    {
+        "productId": 7,
+        "productName": "MegaBook Air 13",
+        "category": "Laptops",
+        "brand": "CompuTech",
+        "price": 999.99,
+        "description": "De MegaBook Air 13 is een lichte en dunne laptop met een 13.3-inch scherm, 8GB RAM, en 256GB SSD.",
+        "specifications": {
+            "screenSize": "13.3 inches",
+            "storage": "256GB SSD",
+            "ram": "8GB",
+            "processor": "Intel i5",
+            "battery": "5000mAh",
+            "os": "Windows 11",
+            "color": "Zilver",
+            "weight": "1.2kg"
+        }
+    },
+    {
+        "productId": 8,
+        "productName": "BassBoost 300",
+        "category": "Headphones",
+        "brand": "AudioPlus",
+        "price": 79.99,
+        "description": "De BassBoost 300 biedt diepe basgeluiden met draadloze connectiviteit en een batterijduur van 20 uur.",
+        "specifications": {
+            "type": "On-ear",
+            "batteryLife": "20 hours",
+            "connectivity": "Bluetooth 5.0",
+            "color": "Rood",
+            "weight": "220g"
+        }
+    },
+    {
+        "productId": 9,
+        "productName": "SuperPhone Lite",
+        "category": "Smartphones",
+        "brand": "SuperTech",
+        "price": 499.99,
+        "description": "De SuperPhone Lite is een betaalbare smartphone met een 6.1-inch LCD-scherm, 32GB opslag, en een 16MP camera.",
+        "specifications": {
+            "screenSize": "6.1 inches",
+            "storage": "32GB",
+            "camera": "16MP",
+            "battery": "3000mAh",
+            "processor": "Quad-core 2.0GHz",
+            "os": "SuperOS 8.0",
+            "color": "Wit",
+            "weight": "150g"
+        }
+    },
+    {
+        "productId": 10,
+        "productName": "PowerCharge Duo",
+        "category": "Chargers",
+        "brand": "ChargeMaster",
+        "price": 39.99,
+        "description": "De PowerCharge Duo is een dubbele lader met 40W vermogen, geschikt voor het gelijktijdig opladen van twee apparaten.",
+        "specifications": {
+            "outputPower": "40W",
+            "inputVoltage": "100-240V",
+            "outputVoltage": "5V, 9V, 12V",
+            "cableLength": "1.5m",
+            "connectorType": "USB-C & USB-A",
+            "color": "Zwart",
+            "weight": "100g"
+        }
+    },
+    {
+        "productId": 11,
+        "productName": "UltraBook Flex 14",
+        "category": "Laptops",
+        "brand": "CompuTech",
+        "price": 1399.99,
+        "description": "De UltraBook Flex 14 is een veelzijdige laptop met een 14-inch touchscreen, 16GB RAM, en 1TB SSD.",
+        "specifications": {
+            "screenSize": "14 inches",
+            "storage": "1TB SSD",
+            "ram": "16GB",
+            "processor": "Intel i7",
+            "battery": "7000mAh",
+            "os": "Windows 11",
+            "color": "Zwart",
+            "weight": "1.5kg"
+        }
+    },
+    {
+        "productId": 12,
+        "productName": "ClearSound 100",
+        "category": "Headphones",
+        "brand": "AudioPlus",
+        "price": 59.99,
+        "description": "De ClearSound 100 biedt kristalhelder geluid met een comfortabele pasvorm en een batterijduur van 25 uur.",
+        "specifications": {
+            "type": "In-ear",
+            "batteryLife": "25 hours",
+            "connectivity": "Bluetooth 5.0",
+            "color": "Blauw",
+            "weight": "30g"
+        }
+    },
+    {
+        "productId": 13,
+        "productName": "SuperPhone Max",
+        "category": "Smartphones",
+        "brand": "SuperTech",
+        "price": 899.99,
+        "description": "De SuperPhone Max is een high-end smartphone met een 6.9-inch AMOLED-scherm, 256GB opslag, en een 64MP camera.",
+        "specifications": {
+            "screenSize": "6.9 inches",
+            "storage": "256GB",
+            "camera": "64MP",
+            "battery": "4500mAh",
+            "processor": "Octa-core 3.0GHz",
+            "os": "SuperOS 11.0",
+            "color": "Goud",
+            "weight": "190g"
+        }
+    },
+    {
+        "productId": 14,
+        "productName": "TurboCharge X",
+        "category": "Chargers",
+        "brand": "ChargeMaster",
+        "price": 49.99,
+        "description": "De TurboCharge X is een krachtige lader met 50W vermogen, geschikt voor snel opladen van meerdere apparaten.",
+        "specifications": {
+            "outputPower": "50W",
+            "inputVoltage": "100-240V",
+            "outputVoltage": "5V, 9V, 12V, 15V",
+            "cableLength": "2m",
+            "connectorType": "USB-C",
+            "color": "Zilver",
+            "weight": "120g"
+        }
+    },
+    {
+        "productId": 15,
+        "productName": "ProBook Ultra 17",
+        "category": "Laptops",
+        "brand": "CompuTech",
+        "price": 1599.99,
+        "description": "De ProBook Ultra 17 is een krachtige laptop met een 17.3-inch scherm, 32GB RAM, en 1TB SSD.",
+        "specifications": {
+            "screenSize": "17.3 inches",
+            "storage": "1TB SSD",
+            "ram": "32GB",
+            "processor": "Intel i9",
+            "battery": "8000mAh",
+            "os": "Windows 11",
+            "color": "Zwart",
+            "weight": "2.5kg"
+        }
+    },
+    {
+        "productId": 16,
+        "productName": "NoiseCancel 500",
+        "category": "Headphones",
+        "brand": "AudioPlus",
+        "price": 149.99,
+        "description": "De NoiseCancel 500 biedt uitstekende ruisonderdrukking en een batterijduur van 40 uur voor langdurig gebruik.",
+        "specifications": {
+            "type": "Over-ear",
+            "batteryLife": "40 hours",
+            "connectivity": "Bluetooth 5.0",
+            "color": "Zilver",
+            "weight": "300g"
+        }
+    },
+    {
+        "productId": 17,
+        "productName": "SuperPhone SE",
+        "category": "Smartphones",
+        "brand": "SuperTech",
+        "price": 399.99,
+        "description": "De SuperPhone SE is een compacte smartphone met een 5.8-inch LCD-scherm, 64GB opslag, en een 12MP camera.",
+        "specifications": {
+            "screenSize": "5.8 inches",
+            "storage": "64GB",
+            "camera": "12MP",
+            "battery": "2800mAh",
+            "processor": "Quad-core 1.8GHz",
+            "os": "SuperOS 7.0",
+            "color": "Rood",
+            "weight": "140g"
+        }
+    },
+    {
+        "productId": 18,
+        "productName": "SpeedCharge Max",
+        "category": "Chargers",
+        "brand": "ChargeMaster",
+        "price": 34.99,
+        "description": "De SpeedCharge Max is een snelle lader met 25W vermogen, ideaal voor het snel opladen van je apparaten.",
+        "specifications": {
+            "outputPower": "25W",
+            "inputVoltage": "100-240V",
+            "outputVoltage": "5V, 9V",
+            "cableLength": "1.2m",
+            "connectorType": "USB-C",
+            "color": "Wit",
+            "weight": "70g"
+        }
+    },
+    {
+        "productId": 19,
+        "productName": "GamingPro 15",
+        "category": "Laptops",
+        "brand": "CompuTech",
+        "price": 1799.99,
+        "description": "De GamingPro 15 is een krachtige gaming laptop met een 15.6-inch scherm, 32GB RAM, en 1TB SSD.",
+        "specifications": {
+            "screenSize": "15.6 inches",
+            "storage": "1TB SSD",
+            "ram": "32GB",
+            "processor": "Intel i9",
+            "battery": "7000mAh",
+            "os": "Windows 11",
+            "color": "Zwart",
+            "weight": "2.3kg"
+        }
+    },
+    {
+        "productId": 20,
+        "productName": "ClearSound 200",
+        "category": "Headphones",
+        "brand": "AudioPlus",
+        "price": 69.99,
+        "description": "De ClearSound 200 biedt helder geluid met een comfortabele pasvorm en een batterijduur van 20 uur.",
+        "specifications": {
+            "type": "In-ear",
+            "batteryLife": "20 hours",
+            "connectivity": "Bluetooth 5.0",
+            "color": "Zwart",
+            "weight": "35g"
+        }
+    }
+]

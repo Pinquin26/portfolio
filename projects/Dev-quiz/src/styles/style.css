@@ -1,0 +1,38 @@
+body {
+  background-color: white;
+  color: black;
+  font-family: "Roboto", sans-serif;
+  margin: 1rem 10rem;
+}
+h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  display: block;
+  background-color: lightblue;
+  border-radius: 0.5rem;
+}
+h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+p {
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+.hidden {
+  display: none !important;
+}
+.spacer {
+  margin-bottom: 1.5rem;
+  margin-top: 0rem;
+}
+.question {
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+  display: inline-block;
+  border-bottom: 2px solid black;
+}

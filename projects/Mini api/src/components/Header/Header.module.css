@@ -1,0 +1,50 @@
+.header {
+    background-color: #0075BE ;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+h1 {
+    font-weight: 500;
+    color: #FFCC00 ;
+    text-decoration: none;
+}
+
+h1:hover {
+    color: #e92929;
+}
+
+.logo {
+    height: 6em;
+    padding: 1.5em;
+    display: visible;
+}
+.logo:hover {
+    animation: logo-spin 2s ease-in-out;
+}
+
+@keyframes logo-spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(90deg);
+    }
+    50% {
+        transform: rotate(-90deg);
+    }
+    75% {
+        transform: rotate(90deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+
+

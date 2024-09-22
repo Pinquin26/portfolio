@@ -1,0 +1,109 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body
+{
+    
+    background-color: #5a5751;
+    color: #d1ccb8;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+h2 {
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+}
+a {
+    color: #d1ccb8;
+    text-decoration: underline;
+}
+
+
+.webgl
+{
+    max-width: 50%;
+    max-height: 50%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    outline: none;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+article {
+    width: 50%;
+    padding: 1rem;
+}
+.logo {
+    margin-bottom: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+.logo_text {
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+    background-color: #d1ccb8;
+    color: #5a5751;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+}
+footer a {
+    color: #5a5751;
+}
+
+@media screen and (max-width: 700px) {
+    main {
+        width: 100%;
+        flex-direction: column; /* Verander de hoofdrichting naar kolom */
+        position: relative;
+    }
+
+    article {
+        margin-bottom: 1rem;
+        width: 100%; /* Neem de volledige breedte in beslag */
+    }
+
+    .logo {
+        flex-direction: column; /* Stapel logo en logo tekst op elkaar */
+        align-items: center; /* Centreer inhoud */
+        text-align: center; /* Centreer tekst */
+    }
+
+    .logo img {
+        margin-bottom: 1rem; /* Voeg ruimte onder het logo toe */
+    }
+
+    footer {
+        flex-direction: column; /* Stapel de footeritems op elkaar */
+        align-items: center; /* Centreer inhoud */
+        
+    }
+    .webgl {
+        position: relative;
+        bottom: 0;
+        left: 0;
+        min-width: 100%;
+        margin-bottom: 5rem;
+    }
+}

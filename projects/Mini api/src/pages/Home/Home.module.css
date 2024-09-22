@@ -1,0 +1,57 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.filters {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    margin: 1em;
+}
+
+.filter_type {
+    padding: 0.5em 1em;
+    border-radius: 0.5em;
+    background-color: #0075BE;
+    cursor: pointer;
+    border: none;
+
+}
+
+.filter_search {
+    padding: 0.5em 1em;
+    border-radius: 0.5em;
+    background-color: #0075BE;
+    cursor: pointer;
+    color: white;
+    border: none;
+    width: 16rem;
+}
+
+.pokemon_list {
+    display: flex;
+    flex-wrap: wrap;
+    overflow-x: hidden;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+.load_more {
+    padding: 0.5em 1em;
+    border-radius: 0.5em;
+    background-color: #0075BE;
+    cursor: pointer;
+    border: none;
+    color: white;
+    margin: 1rem 1rem 10rem 1rem;
+}
+
+@media screen and (max-width: 768px) {
+    .filters {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+}

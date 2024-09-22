@@ -1,0 +1,53 @@
+.questionOverview {
+    margin: 2rem;
+    margin-bottom: 20rem;
+}
+
+.questionList {
+    display: grid;
+    grid-gap: 2rem;
+}
+
+.questionCard {
+    border: 1px solid #ccc;
+    border-radius: 1rem;
+    padding: 2rem;
+    text-align: start;
+}
+.questionCard.read {
+    border: 3px solid green;
+}
+
+.actions button[disabled] {
+    background-color: #dddddd; 
+    cursor: not-allowed;
+}
+
+.questionHeader {
+    margin-bottom: 2rem;
+}
+
+.questionBody {
+    margin-bottom: 2rem;
+    border: 1px solid #ccc;
+}
+
+.actions button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: .5rem;
+    cursor: pointer;
+}
+
+.actions button:hover {
+    background-color: #0056b3;
+}
+
+@media screen and (max-width: 768px) {
+    .questionOverview {
+        margin-bottom: 30rem;
+    }
+    
+}

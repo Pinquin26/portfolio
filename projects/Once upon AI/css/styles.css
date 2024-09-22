@@ -1,0 +1,83 @@
+html body {
+  margin: 1rem;
+  width: fit-content;
+  background-image: url(../images/forest-1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  background-attachment: fixed;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  align-items: center;
+}
+html body::-webkit-scrollbar {
+  display: none;
+}
+html body nav {
+  position: sticky;
+  left: 1rem;
+  top: 1rem;
+  display: inline;
+}
+html body nav a {
+  border: solid 2px black;
+  border-radius: 2rem;
+  background-color: green;
+  text-decoration: none;
+  color: black;
+  padding: 0.2rem 0.5rem;
+}
+html body .bush {
+  position: absolute;
+  right: -4vw;
+  bottom: -12vh;
+  position: fixed;
+  scale: 0.8;
+  z-index: 1;
+  height: 60%;
+}
+html body #intro {
+  margin-bottom: 6rem;
+  margin-left: 10rem;
+  display: flex;
+  margin-right: 10rem;
+}
+html body #intro p {
+  padding-top: 8rem;
+  width: 30rem;
+}
+html body #intro h1 {
+  font-weight: bold;
+  font-size: 5rem;
+  width: 40rem;
+}
+html body article {
+  width: 40rem;
+}
+html body article .verticalLine {
+  width: 0.2rem;
+  height: 6rem;
+  background-color: white;
+  position: relative;
+  bottom: -1rem;
+}
+html body .storie {
+  display: flex;
+  flex-flow: row;
+  gap: 5rem;
+  align-items: center;
+  height: 100vh;
+}
+html body .storie h2 {
+  font-size: 20rem;
+}
+html body #line {
+  width: 87%;
+  height: 0.2rem;
+  background-color: white;
+  position: relative;
+  top: -15rem;
+  margin-left: 50rem;
+}/*# sourceMappingURL=styles.css.map */
